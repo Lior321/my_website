@@ -3,8 +3,6 @@ body{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
-
 }
 header{
     background: black;
@@ -45,7 +43,6 @@ li{
     
 }
 header nav ul li, header nav ul{
-    color: white;
     background-color: none;
     font-size: 15px;
     margin: 3px 5px;
@@ -55,15 +52,23 @@ section.text div{
 }
 header .logo a {
     background-image: url("images/logo.png");
-    background-size: 300px;
+    background-size: 150px;
     display: inline-block;
-    position: relative;
-    width: 300px;;
-    height:140px;
+    position: top;
+    width: 150px;;
+    height:70px;
     text-indent: -99999999px;
     background-repeat: no-repeat;
-
+    bottom: 80px;
 }
+
 .this_page{
-    background-color:  red;
+    font-size: 18px;
+}
+a:any-link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: lightblue;
 }
